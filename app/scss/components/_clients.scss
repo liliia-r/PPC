@@ -1,0 +1,31 @@
+.clients {
+  border-top: 1px solid $color-buttons;
+}
+
+.clients__title {
+  margin-bottom: 85px;
+  padding-top: 0;
+}
+
+.clients__description {
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+
+.clients__list {
+  margin: 0 auto;
+  max-width: 1070px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clients__item {
+  margin-bottom: 40px;
+}
+
+.clients__item:not(:nth-child(5)) {
+  margin-right: 44px;
+}

@@ -1,0 +1,20 @@
+.services__title {
+  color: $color-light-text;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.services__description {
+  color: $color-light-text;
+  font-weight: 200;
+  margin-bottom: 170px;
+}
+
+.button__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-bottom: 125px;
+}

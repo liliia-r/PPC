@@ -1,0 +1,48 @@
+.advantages {
+  background-color: $background-color-grey;
+  border-top: 1px solid $color-buttons;
+}
+
+.advantages__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 944px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.advantages__item {
+  background-image: url(../../images/goals/hex.png);
+  @include background;
+  width: 400px;
+  height: 152px;
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.advantages__item--title {
+  font-size: $section-description-font-size;
+  margin-bottom: 26px;
+}
+.advantages__item--description {
+  font-size: $button-list-font-size;
+}
+
+.advantages__item-dot {
+  position: relative;
+  &::after {
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: $color-buttons;
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 119%;
+  }
+}

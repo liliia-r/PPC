@@ -1,0 +1,42 @@
+.background {
+  background-image: url(../../images/header/header-background.png);
+  @include background;
+}
+
+.header {
+  background-color: rgba($color: $color-light-text, $alpha: 0.4);
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list-item {
+    padding-left: 23px;
+    cursor: pointer;
+  }
+}
+
+.list-link {
+  font-family: $main-font-stack;
+  font-size: $button-list-font-size;
+  font-weight: 400;
+  color: $color-light-text;
+}
+.list-link__button {
+  width: 180px;
+  height: 45px;
+  background-color: $color-buttons;
+  border-radius: 40px;
+  text-align: center;
+  padding: 12px 0;
+  margin-left: 23px;
+}

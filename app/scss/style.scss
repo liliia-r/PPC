@@ -1,0 +1,14 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+@import './utils/placeholders';
+
+@import './components/header';
+@import './components/clients';
+@import './components/footer';
+@import './components/advantages';
+@import './components/services';
+@import './components/stages';
+@import './components/goals';

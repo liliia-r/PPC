@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  color: $color-dark-text;
+  font-family: $main-font-stack;
+  font-weight: 400;
+}
+
+header {
+  flex: 0 0 auto;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-family: $secondary-font-stack;
+  font-size: $section-title-font-size;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 67px;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: center;
+  font-family: $secondary-font-stack;
+  font-size: $section-description-font-size;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
