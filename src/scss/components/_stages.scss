@@ -1,20 +1,16 @@
 .stages {
   background-color: $background-color-grey;
   border-top: 1px solid $color-buttons;
+  padding-bottom: 90px;
 }
 
 .stages__list {
   display: flex;
   flex-wrap: wrap;
-  max-width: 840px;
+  width: 840px;
+  max-height: 215px;
   margin: 0 auto;
   justify-content: space-between;
-}
-
-.list__wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
 }
 
 .stages__item {
@@ -51,6 +47,7 @@
 
 .stages__item-dot {
   position: relative;
+
   &::after {
     display: block;
     width: 5px;

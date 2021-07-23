@@ -1,5 +1,5 @@
 .background {
-  background-image: url(../../images/header/header-background.png);
+  background-image: url(../../assets/images/header/header-background.png);
   @include background;
 }
 
@@ -31,6 +31,7 @@
   font-weight: 400;
   color: $color-light-text;
 }
+
 .list-link__button {
   width: 180px;
   height: 45px;

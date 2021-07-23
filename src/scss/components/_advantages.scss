@@ -1,6 +1,7 @@
 .advantages {
   background-color: $background-color-grey;
   border-top: 1px solid $color-buttons;
+  padding-bottom: 90px;
 }
 
 .advantages__list {
@@ -9,11 +10,10 @@
   justify-content: space-between;
   max-width: 944px;
   margin: 0 auto;
-  margin-bottom: 90px;
 }
 
 .advantages__item {
-  background-image: url(../../images/goals/hex.png);
+  background-image: url(../../assets/images/goals/hex.png);
   @include background;
   width: 400px;
   height: 152px;
@@ -34,6 +34,7 @@
 
 .advantages__item-dot {
   position: relative;
+
   &::after {
     display: block;
     width: 5px;

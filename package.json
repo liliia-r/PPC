@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env PORT=1234 gulp start --development ",
+    "build": "gulp build --production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://liliia-r.github.io/PPC",
   "author": "Vadym Prokopchuk",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",
+    "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "gulp": "^4.0.2",
@@ -20,8 +25,16 @@
     "gulp-sass": "^4.1.0",
     "gulp-uglify-es": "^2.0.0",
     "husky": "^7.0.1",
-    "jquery": "^3.5.1",
     "lint-staged": "^11.0.1",
     "prettier": "^2.3.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liliia-r/PPC.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/liliia-r/PPC/issues"
   }
 }
