@@ -1,0 +1,18 @@
+@mixin background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin btn {
+  display: inline-block;
+  width: 220px;
+  background-color: $color-buttons;
+  border-radius: 58px;
+  border: none;
+  padding: 17px 29px;
+  font-size: $button-list-font-size;
+  color: $color-light-text;
+  font-weight: 300;
+  cursor: pointer;
+}
